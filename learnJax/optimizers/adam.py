@@ -7,6 +7,8 @@ from optimizer import Optimizer
 import jax
 import jax.numpy as jnp
 
+from typing import Any
+
 class Adam(Optimizer):
     """
     params: list of parameters to optimize
